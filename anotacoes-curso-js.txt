@@ -1,0 +1,23 @@
+typeof									Identifica o tipo da variável
+
+window.alert								Lança uma mensagem
+window.confirm								Janela de OK e CANCEL
+window.prompt								Janela de input
+Number.parseInt(n)							Conversão para inteiro
+Number.parseFloat(n)							Conversão para decimal
+Number(n)								Conversão para número
+String(n)								Conversão para string
+n.toStrong()								Conversão para string
+s.length								Quantos caracteres a string tem
+s.toUpperCase()								Muda tudo para maiúsculas
+s.toLowerCase()								Muda tudo para minúsculas
+document.write								Escreve na tela
+document.writeln							Escreve na tela e pula uma linha
+n.toFixed(x)								Retorna o número n com x casas decimais
+n.toLocaleString("pt-BR", {style: "currency", currency: "BRL"})		Retorna o número em valor monetário de reais (basta mudar a linha "BRL" com outra moeda para adaptação
+teste ? true : false							Operador ternário, a primeira parte é uma expressão teste, a segunda é o resultado se o teste for verdadeiro e a terceira é o resultado se o teste for falso
+querySelector()								Todo ID é representada por uma #, toda classe é representada por .
+num.push(n)								Cria um elemento na última posição do vetor num e coloca o valor n
+num.length								Retorna o tamanho do vetor
+num.sort()								Coloca os valores do vetor num em ordem crescente
+num.indexOf(n)								Retorna o valor do index de n em num. Retorna -1 se não achar n em num

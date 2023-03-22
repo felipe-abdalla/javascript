@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nacionalidade</title>
+</head>
+<body>
+    <h1>Checar Nacionalidade</h1>
+
+    Digite seu país de origem: <input type="text" name="txtn" id="txtn">
+    <input type="button" value="Verificar" onclick="verify()">
+    <div id="answer">
+
+    </div>
+
+    <script>
+        function verify(){
+            var pais = document.getElementById("txtn")
+            var resp = document.querySelector("div#answer")
+            var paisString = String(pais.value)
+            if(paisString == "Brasil") {
+                resp.innerHTML = `<p>Você é <strong>brasileiro!</strong></p>`
+            }
+            else {
+                resp.innerHTML = `<p>Você é <strong>estrangeiro!</strong></p>`
+            }
+        }
+    </script>
+</body>
+</html>
